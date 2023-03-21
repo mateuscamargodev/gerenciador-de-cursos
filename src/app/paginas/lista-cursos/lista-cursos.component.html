@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-2">
+      <button type="button" class="btn btn-danger" (click)="deletaCurso()">Deletar</button>
+    </div>
+  </div>
+
+  <table class="table table-bordered">
+    <tr>
+      <th>Série</th>
+      <th>Duração</th>
+      <th>Linguagem</th>
+      <th>Id</th>
+    </tr>
+    <tr *ngFor="let curso of cursos | async">
+      <td>{{curso.serie}}</td>
+      <td>{{curso.duracao}}</td>
+      <td>{{curso.linguagem}}</td>
+      <td>{{curso.id}}</td>
+    </tr>
+  </table>
+
+  <a [routerLink]="['']">Voltar</a>
+</div>

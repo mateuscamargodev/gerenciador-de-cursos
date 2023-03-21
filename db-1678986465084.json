@@ -51,8 +51,14 @@
     {
       "serie": 1,
       "duracao": 1,
-      "linguagem": "JAVA",
+      "linguagem": "html",
       "id": 10
+    },
+    {
+      "serie": 1,
+      "duracao": 1,
+      "linguagem": "css",
+      "id": 11
     }
   ],
   "prazos": [

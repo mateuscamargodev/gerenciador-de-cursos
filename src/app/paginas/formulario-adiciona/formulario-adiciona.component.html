@@ -1,0 +1,25 @@
+<div class="container">
+  <form (ngSubmit)="adicionaCurso(f)" #f="ngForm">
+    <div class="col-sm-6">
+      <label for="serie">Série:</label>
+      <input type="number" id="serie" name="serie" ngModel class="form-control">
+
+    </div>
+
+    <div class="col-sm-6">
+      <label for="duracao">Duração:</label>
+      <input type="number" id="duracao" name="duracao" ngModel class="form-control">
+    </div>
+
+    <div class="col-sm-6">
+      <label for="linguagem">Tecnologia:</label>
+      <input type="text" id="linguagem" name="linguagem" ngModel class="form-control">
+
+      <button type="submit" >Adicionar</button>
+    </div>
+
+    <div id="caixa"></div>
+  </form>
+
+  <div id="caixa"></div>
+</div>

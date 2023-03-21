@@ -47,12 +47,6 @@
       "duracao": 1,
       "linguagem": "vue.js",
       "id": 9
-    },
-    {
-      "serie": 1,
-      "duracao": 1,
-      "linguagem": "JAVA",
-      "id": 10
     }
   ],
   "prazos": [

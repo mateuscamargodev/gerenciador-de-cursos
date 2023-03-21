@@ -1,0 +1,32 @@
+{
+  "cursos": [
+    {
+      "serie": 1,
+      "duracao": 1,
+      "linguagem": "HTML",
+      "id": 1
+    },
+    {
+      "serie": 2,
+      "duracao": 1,
+      "linguagem": "CSS",
+      "id": 2
+    },
+    {
+      "serie": 3,
+      "duracao": 2,
+      "linguagem": "JAVASCRIPT",
+      "id": 3
+    }
+  ],
+  "prazos": [
+    {
+      "serie": 1,
+      "linguagem": "Pronto"
+    },
+    {
+      "serie": 2,
+      "linguagem": "Em produção"
+    }
+  ]
+}

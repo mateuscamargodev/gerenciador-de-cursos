@@ -1,0 +1,20 @@
+{
+  "cursos": [
+    {
+      "serie": 1,
+      "duração": 1,
+      "linguagem": "PHP",
+      "id": 1
+    }
+  ],
+  "prazos": [
+    {
+      "serie": 1,
+      "linguagem": "Pronto"
+    },
+    {
+      "serie": 2,
+      "linguagem": "Em produção"
+    }
+  ]
+}
