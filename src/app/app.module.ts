@@ -7,12 +7,14 @@ import { ListaCursosComponent } from './paginas/lista-cursos/lista-cursos.compon
 import { FormsModule } from '@angular/forms';
 import { FormularioAdicionaComponent } from './paginas/formulario-adiciona/formulario-adiciona.component';
 import { RouterModule } from '@angular/router';
+import { MenuComponent } from './paginas/formulario-adiciona/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaCursosComponent,
-    FormularioAdicionaComponent
+    FormularioAdicionaComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

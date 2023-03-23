@@ -1,0 +1,74 @@
+{
+  "cursos": [
+    {
+      "serie": 1,
+      "duracao": 1,
+      "linguagem": "HTML",
+      "id": 1
+    },
+    {
+      "serie": 2,
+      "duracao": 1,
+      "linguagem": "CSS",
+      "id": 2
+    },
+    {
+      "serie": 3,
+      "duracao": 2,
+      "linguagem": "JAVASCRIPT",
+      "id": 3
+    },
+    {
+      "serie": 4,
+      "duracao": 2,
+      "linguagem": "springboot",
+      "id": 4
+    },
+    {
+      "serie": 2,
+      "duracao": 2,
+      "linguagem": "node.js",
+      "id": 5
+    },
+    {
+      "serie": 2,
+      "duracao": 1,
+      "linguagem": "pascal",
+      "id": 6
+    },
+    {
+      "serie": 4,
+      "duracao": 2,
+      "linguagem": "kotlin",
+      "id": 8
+    },
+    {
+      "serie": 3,
+      "duracao": 1,
+      "linguagem": "vue.js",
+      "id": 9
+    },
+    {
+      "serie": 1,
+      "duracao": 1,
+      "linguagem": "JAVA",
+      "id": 10
+    },
+    {
+      "serie": 1,
+      "duracao": 2,
+      "linguagem": "Html",
+      "id": 11
+    }
+  ],
+  "prazos": [
+    {
+      "serie": 1,
+      "linguagem": "Pronto"
+    },
+    {
+      "serie": 2,
+      "linguagem": "Em produção"
+    }
+  ]
+}

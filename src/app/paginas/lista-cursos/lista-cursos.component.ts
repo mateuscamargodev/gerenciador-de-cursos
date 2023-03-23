@@ -19,7 +19,8 @@ export class ListaCursosComponent implements OnInit {
     return this.cursoServiceService.listaCursos();
   }
 
-  deletaCurso(){
-    this.cursoServiceService.deletaCurso();
+  deletaCurso(id: number){
+    this.cursoServiceService.deletaCurso(id);
+    this.cursos = this.listaCursos();
   }
 }

@@ -52,6 +52,7 @@ export class FormularioAdicionaComponent implements OnInit {
     else {
       this.cursoService.adicionaCurso(curso);
       caixa.innerHTML = `<div class="alert alert-success">Curso adicionado com sucesso!</div>`;
+      form.reset();
     }
   }
 }

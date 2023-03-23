@@ -1,0 +1,44 @@
+.menu {
+  background-color: rgb(58, 57, 57);
+  color: rgb(216, 212, 212);
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 15px;
+  transition: 0.4s all;
+}
+
+.menu li:hover {
+  color: white;
+  background-color: rgb(20, 20, 20);
+}
+
+.menu li a {
+  text-decoration: none;
+  color: rgb(216, 212, 212);
+}
+
+.visivel {
+  display: block;
+}
+
+.invisivel {
+  display: none;
+}
+
+.dropdown-menu li{
+  width: 100%;
+  margin: 0;
+  background: rgb(248, 244, 244);
+
+}
+
+.dropdown-menu li:hover {
+  background-color: rgb(163, 157, 157);
+}
+
+.dropdown-menu li a {
+  color: rgb(36, 34, 34);
+}

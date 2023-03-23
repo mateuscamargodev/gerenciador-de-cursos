@@ -21,9 +21,9 @@ export class CursoServiceService {
     this.http.post(this.apiURL + '/cursos', curso).subscribe(resultado => console.log(resultado));
   }
 
-  deletaCurso(){
+  deletaCurso(id: number){
     //this.cursos.splice(4);
-    this.http.delete(this.apiURL + '/cursos/11').subscribe(resultado => console.log(resultado));
+    this.http.delete(this.apiURL + '/cursos/' + id).subscribe(resultado => console.log(resultado));
   }
 }
 

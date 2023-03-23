@@ -1,4 +1,6 @@
 <div class="container">
+  <app-menu></app-menu>
+
   <form (ngSubmit)="adicionaCurso(f)" #f="ngForm">
     <div class="col-sm-6">
       <label for="serie">Série:</label>
@@ -17,8 +19,6 @@
 
       <button type="submit" >Adicionar</button>
     </div>
-
-    <div id="caixa"></div>
   </form>
 
   <div id="caixa"></div>

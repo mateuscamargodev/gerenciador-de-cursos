@@ -19,40 +19,10 @@
       "id": 3
     },
     {
-      "serie": 4,
-      "duracao": 2,
-      "linguagem": "springboot",
-      "id": 4
-    },
-    {
-      "serie": 2,
-      "duracao": 2,
-      "linguagem": "node.js",
-      "id": 5
-    },
-    {
-      "serie": 2,
-      "duracao": 1,
-      "linguagem": "pascal",
-      "id": 6
-    },
-    {
-      "serie": 4,
-      "duracao": 2,
-      "linguagem": "kotlin",
-      "id": 8
-    },
-    {
-      "serie": 3,
-      "duracao": 1,
-      "linguagem": "vue.js",
-      "id": 9
-    },
-    {
       "serie": 1,
       "duracao": 1,
-      "linguagem": "JAVA",
-      "id": 10
+      "linguagem": "angular",
+      "id": 4
     }
   ],
   "prazos": [
